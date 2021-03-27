@@ -15,3 +15,9 @@ theme = "tale"
     title = "GSoC"
     url = "/gsoc/"
     weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 30
