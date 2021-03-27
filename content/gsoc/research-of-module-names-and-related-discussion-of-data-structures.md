@@ -2,6 +2,7 @@
 title: "Research of module names and related discussion of data structures"
 date: 2019-06-10T07:38:10+00:00
 draft: false 
+author: Loong
 ---
 
 [//]: # ( UUID: 2d9c20ba-e29a-407b-bb95-30266b62f30f )

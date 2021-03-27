@@ -2,6 +2,7 @@
 title: "Research how to design properties/actions/events API in Drupal"
 date: 2019-05-29T04:12:54+00:00
 draft: false 
+author: Loong
 ---
 
 [//]: # ( UUID: 98470898-dbea-4b38-ba6e-c564c9636528 )

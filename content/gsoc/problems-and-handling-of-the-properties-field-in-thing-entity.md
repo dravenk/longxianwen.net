@@ -2,6 +2,7 @@
 title: "Problems and handling of the properties field in Thing entity"
 date: 2019-06-17T15:21:35+00:00
 draft: false 
+author: Loong
 ---
 
 [//]: # ( UUID: f9048e80-b2f6-4cce-a413-8b1e16faaff6 )

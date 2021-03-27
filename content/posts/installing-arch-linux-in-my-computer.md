@@ -2,6 +2,7 @@
 title: "Installing Arch Linux in my computer"
 date: 2020-07-19T02:57:32+00:00
 draft: false 
+author: Loong
 ---
 
 [//]: # ( UUID: c7ee4ab9-9e4c-478b-81bb-8cbf354709e3 )

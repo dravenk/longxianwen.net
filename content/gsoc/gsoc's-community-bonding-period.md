@@ -2,6 +2,7 @@
 title: "GSoC's Community bonding period"
 date: 2019-05-28T01:05:26+00:00
 draft: false 
+author: Loong
 ---
 
 [//]: # ( UUID: 60b49728-64bc-448f-afa0-71d1a4d5e021 )
