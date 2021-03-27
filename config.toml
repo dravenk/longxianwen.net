@@ -3,12 +3,12 @@ languageCode = "en-us"
 title = "Xianwen Long"
 theme = "tale"
 [menu]
-#   [[menu.main]]
-#     identifier = "about"
-#     name = "About"
-#     title = "About"
-#     url = "/about/"
-#     weight = 0
+  [[menu.main]]
+    identifier = "gsoc"
+    name = "GSoC"
+    title = "GSoC"
+    url = "/gsoc/"
+    weight = 0
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
