@@ -8,10 +8,10 @@ theme = "tale"
     name = "Posts"
     title = "Posts"
     url = "/posts/"
-    weight = 0
+    weight = 10
   [[menu.main]]
     identifier = "gsoc"
     name = "GSoC"
     title = "GSoC"
     url = "/gsoc/"
-    weight = 0
+    weight = 20
