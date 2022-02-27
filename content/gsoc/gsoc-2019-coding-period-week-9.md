@@ -1,7 +1,7 @@
 ---
 title: "GSoC 2019 Coding Period Week 9"
 date: 2019-07-28T08:59:21+00:00
-draft: false 
+draft: false
 author: Loong
 ---
 
@@ -13,7 +13,7 @@ Answer the previous question mentioned in the [blog post](https://longxianwen.ne
 
 > How does type restrict the type of field that stores the property value?
 
-Remove the \`type\` item in the Thing property type form. I've made some progress. I can get the information from a specific Thing property entity. It contains the field value and storage information. It means it doesn't need to fill out the value of \`type\` in the bundle of the Thing property type. Here are several data examples of interfaces that are consistent with the Web Thing specification.
+Remove the `type` item in the Thing property type form. I've made some progress. I can get the information from a specific Thing property entity. It contains the field value and storage information. It means it doesn't need to fill out the value of `type` in the bundle of the Thing property type. Here are several data examples of interfaces that are consistent with the Web Thing specification.
 
 Example: Get all things
 
