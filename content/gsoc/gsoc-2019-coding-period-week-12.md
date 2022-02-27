@@ -3,6 +3,7 @@ title: "GSoC 2019 Coding Period Week 12"
 date: 2019-08-20T03:03:30+00:00
 draft: false
 author: Loong
+summary: "I created a route /things/{thing_id}/actions to execute the action that the user requested through the POST. Interface description: Actions resource."
 ---
 
 [//]: # ( UUID: b31949fc-50f2-492f-850a-025a08d8c215 )

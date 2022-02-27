@@ -3,6 +3,7 @@ title: "GSoC 2019 Coding Period Week 11"
 date: 2019-08-13T13:23:51+00:00
 draft: false
 author: Loong
+summary: "I create a custom Thing action field to associate the user-created Thing Action with a Thing."
 ---
 
 [//]: # ( UUID: 1bcf93a9-93db-4883-a295-e94ac494e7d6 )
