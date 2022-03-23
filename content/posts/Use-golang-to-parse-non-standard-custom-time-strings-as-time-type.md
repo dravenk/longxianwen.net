@@ -37,5 +37,7 @@ func main() {
     fmt.Println(tt)
   }
 }
-
+// Output:
+// 2020-09-16 11:00:00 +0800 CST
+// time:  0001-01-01 00:00:00 +0000 UTC | Error:  parsing time "" as "2006-01-02 15:04:05": cannot parse "" as "2006"
 ```
