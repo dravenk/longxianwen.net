@@ -21,3 +21,5 @@ theme = "tale"
     title = "About"
     url = "/about/"
     weight = 30
+[Author]
+    name = "Xianwen Long"
