@@ -1,7 +1,7 @@
 baseURL = "http://longxianwen.net/"
 languageCode = "en-us"
 title = "Xianwen Long"
-theme = "tale"
+theme = "photophobia"
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -21,5 +21,6 @@ theme = "tale"
     title = "About"
     url = "/about/"
     weight = 30
-[Author]
+[params]
+  [[author]]
     name = "Xianwen Long"
