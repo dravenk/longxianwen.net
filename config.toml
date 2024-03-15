@@ -24,3 +24,5 @@ theme = "photophobia"
 [params]
   [[author]]
     name = "Xianwen Long"
+  description = "Loong's blog"
+  section = "posts"

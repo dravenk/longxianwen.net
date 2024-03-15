@@ -2,6 +2,8 @@
 title: "Instead of using drush sqlc to import data, use drush sql:connect"
 date: 2024-01-04T21:05:28+08:00
 draft: false
+author: Loong
+tag: post
 ---
 
 

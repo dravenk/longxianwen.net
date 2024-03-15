@@ -1,9 +1,10 @@
 ---
 title: "Developed an Order Processing Platform for the company to process millions of orders"
 date: 2022-02-27T17:09:21+08:00
-author: loong
-draft: false
 summary: "I design an Order Processing Platform for one hundred people compony, when I was a junior student."
+draft: false
+author: Loong
+tag: post
 ---
 
 Today I looked at the code I wrote before. I design an Order Processing Platform (OPP) for a compony, when I was a junior student. In fact, I seldom go to school. The system efficiently processed millions of commercial orders. I gonna tell you some story about this system.

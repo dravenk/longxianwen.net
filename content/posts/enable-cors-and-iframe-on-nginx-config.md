@@ -4,6 +4,7 @@ date: 2022-02-27T16:07:48+08:00
 draft: false
 author: Loong
 summary: "Some simple configuration documents."
+tag: post
 ---
 
 Some simple configuration documents.
