@@ -9,7 +9,9 @@ Hi there 👋
 My name is Xianwen Long(Loong).  
 I'm a software engineer.
 
-My Email: longxianwen@outlook.com
+Email: `echo bG9uZ3hpYW53ZW5Ab3V0bG9vay5jb20K | base64 -d`  
+Github: `echo aHR0cHM6Ly9naXRodWIuY29tL2RyYXZlbmsK | base64 -d `  
+WeChat: `echo Y29kaW5naW4K | base64 -d`  
 
 ### Projects
 
