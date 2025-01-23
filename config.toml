@@ -1,7 +1,7 @@
 baseURL = "http://longxianwen.net/"
 languageCode = "en-us"
 title = "Xianwen Long"
-theme = "photophobia"
+theme = "spectre-pixel"
 [menu]
   [[menu.main]]
     identifier = "posts"

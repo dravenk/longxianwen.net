@@ -1,3 +1,6 @@
 [submodule "themes/photophobia"]
 	path = themes/photophobia
 	url = https://github.com/setsevireon/photophobia.git
+[submodule "themes/spectre-pixel"]
+	path = themes/spectre-pixel
+	url = https://github.com/st-wong/hugo-spectre-pixel-theme.git
