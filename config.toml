@@ -1,4 +1,4 @@
-baseURL = "http://longxianwen.net/"
+baseURL = "https://longxianwen.net/"
 languageCode = "en-us"
 title = "Xianwen Long"
 theme = "spectre-pixel"
