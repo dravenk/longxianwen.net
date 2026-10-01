@@ -1,0 +1,258 @@
+:root {
+  --bg: #eef2f4;
+  --bg-deep: #e4eaee;
+  --ink: #15202b;
+  --muted: #5b6b7a;
+  --line: #c9d3db;
+  --accent: #0b6e4f;
+  --accent-hover: #08553d;
+  --accent-soft: #d4ebe2;
+  --code-bg: #15202b;
+  --code-fg: #e8eef5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(11, 110, 79, 0.08), transparent 32%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.site-header,
+.site-main,
+.site-footer {
+  width: min(720px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.75rem 0 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-brand {
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+  color: var(--ink);
+}
+
+.site-main {
+  padding: 2rem 0 3.5rem;
+}
+
+.site-footer {
+  padding: 1.25rem 0 2.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.hero {
+  margin-bottom: 2.75rem;
+}
+
+.hero-kicker,
+.meta {
+  margin: 0 0 0.4rem;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-title,
+.page-header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+.hero-lead,
+.lead {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+  max-width: 38rem;
+}
+
+.section + .section {
+  margin-top: 2.5rem;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
+}
+
+.section-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.post-list li {
+  border-bottom: 1px solid var(--line);
+}
+
+.post-list a {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-list time {
+  color: var(--muted);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.82rem;
+}
+
+.post-list span {
+  font-weight: 500;
+}
+
+.post-list a:hover span {
+  color: var(--accent);
+}
+
+.page-header {
+  margin-bottom: 1.5rem;
+}
+
+.prose > *:first-child {
+  margin-top: 0;
+}
+
+.prose h2,
+.prose h3,
+.prose h4 {
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem 0;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.prose pre,
+.prose code {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.88em;
+}
+
+.prose code {
+  padding: 0.12em 0.35em;
+  border-radius: 0.25rem;
+  background: var(--accent-soft);
+}
+
+.prose pre {
+  overflow-x: auto;
+  padding: 1rem 1.1rem;
+  border-radius: 0.5rem;
+  background: var(--code-bg);
+  color: var(--code-fg);
+  line-height: 1.55;
+}
+
+.prose pre code {
+  padding: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.prose blockquote {
+  margin: 1.25rem 0;
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--muted);
+}
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2rem 0;
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .post-list a {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

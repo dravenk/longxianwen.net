@@ -1,20 +1,35 @@
-Beian
+# longxianwen.net
 
-```
-git clone git@github.com:dravenk/longxianwen.net.git
-cd longxianwen.net
-docker run --rm -d --name loong -p 1313:1313 \
-  -v ${PWD}:/src \
-  hugomods/hugo \
-  hugo server --bind 0.0.0.0
-```
+Personal blog, built with [Jekyll](https://jekyllrb.com/).
 
+## Local with Docker
 
-```
-git submodule update --init
+From the `myapps` repo:
+
+```bash
+docker compose up -d loong
 ```
 
+Caddy proxies `https://longxianwen.net` → `loong:4000`. Host port defaults to `1313`.
 
+One-off static build (optional; not required for normal use):
+
+```bash
+docker compose run --rm loong build
 ```
-docker run --rm  -v ${PWD}:/src  hugomods/hugo hugo
+
+## Local without Docker
+
+```bash
+bundle install
+bundle exec jekyll serve --host 0.0.0.0 --port 4000
 ```
+
+## GitHub Pages
+
+Push to `main`. GitHub Actions builds `_site` and deploys — no Docker build step on the VPS.
+
+1. Repo **Settings → Pages → Source**: GitHub Actions
+2. Custom domain: `longxianwen.net` (see `CNAME`)
+
+If DNS for `longxianwen.net` points at this VPS, Caddy serves the local Jekyll container. GitHub Pages is the push-to-deploy path (or a future DNS cutover).

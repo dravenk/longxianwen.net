@@ -1,2 +1,8 @@
-/public/
-/resources/_gen/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+.DS_Store
+content/

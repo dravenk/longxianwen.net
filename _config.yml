@@ -1,0 +1,54 @@
+title: Xianwen Long
+email: longxianwen@outlook.com
+description: Loong's blog
+url: https://longxianwen.net
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+
+author:
+  name: Xianwen Long
+  github: dravenk
+
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  gsoc:
+    output: true
+    permalink: /gsoc/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Loong
+  - scope:
+      path: ""
+      type: gsoc
+    values:
+      layout: post
+      author: Loong
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - Dockerfile
+  - .gitignore
+  - content

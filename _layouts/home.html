@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<section class="hero">
+  <p class="hero-kicker">{{ site.description }}</p>
+  <h1 class="hero-title">{{ site.title }}</h1>
+  <p class="hero-lead">Notes on software, systems, and building things that last.</p>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>Recent posts</h2>
+    <a class="section-link" href="{{ '/posts/' | relative_url }}">All posts</a>
+  </div>
+  <ul class="post-list">
+    {% assign recent = site.posts | slice: 0, 6 %}
+    {% for post in recent %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          <span>{{ post.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>GSoC</h2>
+    <a class="section-link" href="{{ '/gsoc/' | relative_url }}">All entries</a>
+  </div>
+  <ul class="post-list">
+    {% assign gsoc_sorted = site.gsoc | sort: 'date' | reverse %}
+    {% assign gsoc_recent = gsoc_sorted | slice: 0, 4 %}
+    {% for post in gsoc_recent %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          <span>{{ post.title }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
